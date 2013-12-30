@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 7d024737935a06d8b39c8ddd59d7a306a6f2d5ea
 filetype off	"检测文件类型
 if has("syntax")	"开启语法高亮
 	syntax on
@@ -22,15 +18,12 @@ set hlsearch	"高亮搜索字
 set scrolloff=100	"保持与上下10行的间距
 set showcmd	"显示输入的命令
 set cursorline	"高亮所在行
-<<<<<<< HEAD
 "设置高亮行的颜色
 hi	cursorline cterm=NONE cterm=underline 
 
 "设置高亮列的颜色
 			
 hi	cursorcolumn cterm=NONE  ctermbg=gray  
-=======
->>>>>>> 7d024737935a06d8b39c8ddd59d7a306a6f2d5ea
 set cursorcolumn "高亮所在列
 
 "There are so many times I realized that I don't need taglist when I start
@@ -48,11 +41,7 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 "colorscheme dark
 "colorscheme molokai
 "colorscheme solarized
-<<<<<<< HEAD
 "set t_Co=256
-=======
-set t_Co=256
->>>>>>> 7d024737935a06d8b39c8ddd59d7a306a6f2d5ea
 
 "一些自动命令
 if has("autocmd")	"让光标指向上次编辑的位置
